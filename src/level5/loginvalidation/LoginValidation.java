@@ -7,6 +7,7 @@ public class LoginValidation {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("new line");
+        System.out.println("new line");
 
 
         String userRegex = "^[A-Za-z0-9]+$";
