@@ -9,7 +9,7 @@ public class LoginValidation {
         System.out.println("new line");
         System.out.println("new line");
 
-
+        System.out.println("new linez");
         String userRegex = "^[A-Za-z0-9]+$";
         String passRegex = "^(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*]).{6,}$";
         String phoneRegex = "^\\+994\\d{9}$";
