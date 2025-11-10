@@ -29,6 +29,7 @@ public class LoginValidation {
 
         while (attempts < maxAttempts) {
             System.out.print("Şifrə: ");
+            System.out.println(" sifre ən az 1 böyük hərf, 1 rəqəm, 1 xüsusi simvol və 6+ simvoldan ibaret olmalidir");
             String password = sc.nextLine();
 
             if (password.matches(passRegex)) {
