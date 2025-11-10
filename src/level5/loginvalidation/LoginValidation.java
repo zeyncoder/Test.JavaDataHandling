@@ -12,6 +12,7 @@ public class LoginValidation {
         String phoneRegex = "^\\+994\\d{9}$";
 
         System.out.print("İstifadəçi adı: ");
+        System.out.println("(İstifadəçi adı yalnız hərf və rəqəmlərdən ibarət olmalıdır!)");
         String username = sc.nextLine();
 
 
