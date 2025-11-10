@@ -6,6 +6,8 @@ public class LoginValidation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("new line");
+
 
         String userRegex = "^[A-Za-z0-9]+$";
         String passRegex = "^(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*]).{6,}$";
@@ -14,7 +16,6 @@ public class LoginValidation {
         System.out.print("İstifadəçi adı: ");
         System.out.println("(İstifadəçi adı yalnız hərf və rəqəmlərdən ibarət olmalıdır!)");
         String username = sc.nextLine();
-
 
         if (!username.matches(userRegex)) {
             System.out.println("İstifadəçi adı yalnız hərf və rəqəmlərdən ibarət olmalıdır!");
